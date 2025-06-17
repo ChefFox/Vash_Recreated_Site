@@ -1,60 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Vashti's Heart Healing</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Vashti – Heart Healing
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <nav class="main-nav">
+   <ul>
+    <li>
+     <a href="index.html">
+      Home
+     </a>
+    </li>
+    <li>
+     <a href="is-this-you.html">
+      Is This You?
+     </a>
+    </li>
+    <li>
+     <a href="about.html">
+      About Me
+     </a>
+    </li>
+    <li>
+     <a href="how.html">
+      HeartHealing
+     </a>
+    </li>
+    <li>
+     <a href="index.html#contact">
+      Contact Me
+     </a>
+    </li>
+   </ul>
+  </nav>
   <header class="hero">
-    <div class="overlay clearbox">
-      <div class="hero-line">
-        <span class="fade-in delay0">You’ve held it together.</span><br>
-        <span class="fade-in delay1">You don’t have to carry it alone anymore.</span><br>
-        <span class="fade-in delay2">Welcome to Vashti’s Heart Healing</span>
-      </div>
+   <div class="overlay clearbox">
+    <div class="hero-line">
+     <span class="fade-in delay0">
+      You’ve held it together.
+     </span>
+     <br/>
+     <span class="fade-in delay1">
+      You don’t have to carry it alone anymore.
+     </span>
+     <br/>
+     <span class="fade-in delay2">
+      Welcome to Vashti’s Heart Healing
+     </span>
     </div>
+   </div>
   </header>
-
-  <!-- Section 1: Is This You? -->
-  <section class="teaser-section">
-    <div class="teaser-text left">
-      <h2>Is This You?</h2>
-      <p>Something has brought you to this space – this page: maybe grief, a loss, anxiety, stress, overwhelm.<br>
-      You may not even know what is wrong, but you just know something is not right.<br>
-      You may feel your heart hurts.</p>
-      <a href="#" class="read-more">Learn more</a>
+  <main>
+   <section class="teaser">
+    <div class="teaser-image">
+     <img alt="Heart carved into a tree" src="Heart_on_tree.png"/>
     </div>
-    <img src="Heart_on_tree.png" alt="Heart on Tree" class="teaser-img right" />
-  </section>
-
-  <!-- Section 2: About Me -->
-  <section class="teaser-section">
-    <img src="V-H-headshot.jpg" alt="Vashti Headshot" class="teaser-img left" />
-    <div class="teaser-text right">
-      <h2>About Me</h2>
-      <p>My heart and I have been on a huge journey.<br>
-      My background is rooted in psychotherapy.<br>
-      I have been on the journey (and continue) that you will embark on with me.</p>
-      <a href="#" class="read-more">Learn more</a>
+    <div class="teaser-text">
+     <h2>
+      Is This You?
+     </h2>
+     <p>
+      Something has brought you to this space: maybe grief, a loss, anxiety, stress, overwhelm.
+     </p>
+     <p>
+      You may not even know what is wrong, but you just know something is not right.
+     </p>
+     <p>
+      You may feel your heart hurts.
+     </p>
+     <a class="read-more" href="is-this-you.html">
+      Learn more
+     </a>
     </div>
-  </section>
-
-  <!-- Section 3: How I Use HeartHealing -->
-  <section class="teaser-section">
-    <div class="teaser-text left">
-      <h2>How I Use HeartHealing</h2>
-      <p>Together, we will explore – enquire with curiosity – what is going on for you.<br>
-      You will not have to explain anything perfectly or have anything figured out.<br>
-      And you have done the hardest bit already because you are here.</p>
-      <a href="#" class="read-more">Learn more</a>
+   </section>
+   <section class="teaser reverse">
+    <div class="teaser-image">
+     <img alt="Portrait of Vashti" src="V-H-headshot.jpg"/>
     </div>
-    <img src="Ray Of Vash.png" alt="How I Use HeartHealing" class="teaser-img right" />
-  </section>
-
-  <!-- Decorative tree and roots sections -->
-  <section class="heart-tree-section"></section>
-  <section class="roots-section"></section>
-</body>
+    <div class="teaser-text">
+     <h2>
+      About Me
+     </h2>
+     <p>
+      My heart and I have been on a huge journey.
+     </p>
+     <p>
+      My background is rooted in psychotherapy.
+     </p>
+     <p>
+      <strong>
+       And I have been on the journey, that I continue, that you will embark on with me.
+      </strong>
+     </p>
+     <a class="read-more" href="about.html">
+      Learn more
+     </a>
+    </div>
+   </section>
+   <section class="teaser">
+    <div class="teaser-image">
+     <img alt="Decorative therapeutic art" src="Ray Of Vash.png"/>
+    </div>
+    <div class="teaser-text">
+     <h2>
+      How I Use HeartHealing
+     </h2>
+     <p>
+      Together, we will explore – enquire with curiosity – what is going on for you.
+     </p>
+     <p>
+      You will not have to explain anything perfectly or have anything figured out.
+     </p>
+     <p>
+      And you have done one of the hardest bits already because you are here.
+     </p>
+     <a class="read-more" href="how.html">
+      Learn more
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="contact-footer">
+   <img alt="Tree roots background" class="footer-bg" src="roots.jpg"/>
+   <div class="contact-overlay" id="contact">
+    <h2>
+     Contact Me
+    </h2>
+    <p>
+     [Contact form placeholder]
+    </p>
+   </div>
+  </footer>
+  <button id="backToTop">
+   Back to Top
+  </button>
+  <script>
+   window.addEventListener("scroll", function() {
+  const button = document.getElementById("backToTop");
+  if (window.scrollY > 300) {
+    button.style.display = "block";
+  } else {
+    button.style.display = "none";
+  }
+});
+document.getElementById("backToTop").addEventListener("click", function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+  </script>
+ </body>
 </html>
